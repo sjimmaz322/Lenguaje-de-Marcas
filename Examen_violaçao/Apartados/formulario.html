@@ -1,0 +1,51 @@
+<DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<link href="../Images/Tick.png" rel="shortcut icon"/>
+<link href="" rel="stylesheet"/>
+<title>Formulario</title>
+</head>
+<body>
+<h1>Formulario de entrada</h1>
+<form action="../index.html" method="get" enctype="multipart/form-data">
+<fieldset>
+<legend>Datos Pesonales</legend>
+<table>
+<tr>
+<td><label for="nombre">Nombre: </label></td>
+<td><input type="text" name="nombre" id="nombre"/></td>
+</tr>
+<tr>
+<td><label>Sexo: </label></td>
+<td><input type="radio" name="sexo" value="hombre" id="hombre" checked><label for="hombre">Hombre</label><input type="radio" name="sexo" value="mujer" id="mujer"><label for="mujer">Mujer</label></td>
+</tr>
+<tr>
+<td>Vehículos:</td>
+<td><input type="checkbox" name="vehiculo" value="bici" id="bici"><label for="bici">Bici: </label><input type="checkbox" name="vehiculo" value="coche" id="coche"><label for="coche">Coche: </label></td>
+</tr>
+<tr>
+<td><label for="bebidas">Bebidas: </label></td>
+<td>
+<select size="3" name="bebidas" id="bebidas">
+	<option value="agua">Agua</option>
+	<option value="vino">Vino</option>
+	<option value="cerveza" selected>Cerveza</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="txt">Comentarios: </label></td>
+<td>
+	<textarea rows="4" cols="30" name="txt" id="txt"></textarea>
+</td>
+</tr>
+<tr>
+<td><input type="submit" name="btn_enviar" id="enviar" value="Pág. Inicio"/></td>
+<td></td>
+</tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>

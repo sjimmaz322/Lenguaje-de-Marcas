@@ -1,0 +1,19 @@
+html{box-sizing: border-box; height: 100%; width:100%;margin:0; padding:0; }
+*{box-sizing: inherit;}
+body{height: 100%; width: 100%;}
+div{border: 1px solid black; width: 30%;  margin-left: 2.5%;margin-top: 2.5%; float: left; position:relative; }
+img{border: 1px dashed red;}
+div div{float:right;border: none; text-align: right;position: relative;}
+.move{position:absolute; top:30%;right: 0%;font-size: 2em;}
+#img1{vertical-align:baseline;}
+#img2{vertical-align:sub;}
+#img3{vertical-align:super;}
+#img4{vertical-align:top;}
+#img5{vertical-align:text-top;}
+#img6{vertical-align:middle;}
+#img7{vertical-align:bottom;}
+#img8{vertical-align:text-bottom;}
+#img9{vertical-align:1em;}
+#img10{vertical-align:-1em;}
+#img11{vertical-align:20%;}
+#img12{vertical-align:80%;}

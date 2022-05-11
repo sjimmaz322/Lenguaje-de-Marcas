@@ -1,0 +1,13 @@
+html{box-sizing: border-box;}
+*{box-sizing:inherit;}
+body{height:100%;width:100%; background-color: lightyellow;}
+/*.enlace{border: none; background:none;color:blue; text-decoration:underline;cursor:pointer;}*/
+/*
+label{display:block;}
+button{display:block;}
+input{padding:0.2em;}
+
+input:focus{border: 3px blue solid ;background:#d3d3d3;}
+*/
+div{margin-top:0.5em;}
+label{width:15%; float:left;}

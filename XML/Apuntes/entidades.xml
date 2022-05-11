@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vehiculo [
+
+<!ELEMENT vechiculos (coche,moto,quad)>
+<!ELEMENT coche (ruedas,color,puertas)>
+<!ELEMENT moto (ruedas, color, cc)>
+<!ELEMENT quad (ruedas, color, otro)>
+
+<!ELEMENT ruedas (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT puertas (#PCDATA)>
+<!ELEMENT cc (#PCDATA)>
+<!ELEMENT otros (#PCDATA)>
+
+<!ENTITY b "blanco">
+]>
+<vehiculo>
+	<coche>
+		<ruedas>4</ruedas>
+		<color>&b;</color>
+		<puertas>4</puertas>
+	</coche>
+	<moto>
+		<ruedas>2</ruedas>
+		<color>Azul</color>
+		<cc>125</cc>
+	</moto>
+	<quad>
+		<ruedas>4</ruedas>
+		<color>Rojo</color>
+		<otro>250</otro>
+	</quad>
+</vehiculo>

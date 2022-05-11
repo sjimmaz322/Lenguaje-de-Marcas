@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE banco SYSTEM "banco_lorca.dtd">
+
+<banco>
+	<sucursal cod="Name">
+		<cuenta cod_cuenta="Code">
+			<cliente nif="nif">
+				<nombre></nombre>
+				<apellidos></apellidos>
+				<nivel></nivel>
+				<prestamo></prestamo>
+			</cliente>
+		</cuenta>
+		<cuenta cod_cuenta="Code2">
+			<cliente nif="nif2">
+				<nombre></nombre>
+				<apellidos></apellidos>
+				<nivel></nivel>
+				<prestamo></prestamo>
+			</cliente>
+		</cuenta>
+	</sucursal>
+</banco>

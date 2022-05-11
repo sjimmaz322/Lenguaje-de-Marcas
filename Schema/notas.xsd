@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aka:schema xmlns:aka="http://www.w3.org/2001/XMLSchema">
+	<!-- aka puede ser lo que queramos -->
+	<aka:element name="notas" type="notesType" />
+	<aka:complexType name="notesType">
+		<aka:sequence>
+			<aka:element name="nota" type="noteType" minOccurs="0" maxOccurs="unbounded"/>
+		</aka:sequence>
+	</aka:complexType>
+
+	<aka:element name="nota" type="noteType" />
+	<aka:complexType name="noteType" mixed="true">
+		<aka:sequence>
+			<!-- sequence para mantener el orden, all para que el orden de igual -->
+			<aka:element name="de" type="aka:string" />
+			<aka:element name="para" type="aka:string" />
+			<aka:choice>
+				<aka:element name="titulo" type="aka:string" />
+				<aka:element name="fecha" type="aka:date" />
+			</aka:choice>
+			<aka:element name="contenido" type="aka:string" />
+		</aka:sequence>
+	</aka:complexType>
+</aka:schema>
+
+<!-- otra forma de hacerlo
+<aka:complexType>
+		<aka:sequence>	
+			<aka:element name="de" type="aka:string"/>
+			<aka:element name="para" type="aka:string"/>
+			<aka:element name="titulo" type="aka:string"/>
+			<aka:element name="contenido" type="aka:string"/>
+		</aka:sequence>
+</aka:complexType>
+-->

@@ -1,0 +1,9 @@
+table,td{border: 1px solid black;}
+
+table{width:50%;margin:5% auto;empty-cells:hide;}
+
+/* caption{caption-side:left;} para mover de sitio el caption */
+
+#table1{border-collapse: collapse;}
+
+#table2{border-spacing:5px;}

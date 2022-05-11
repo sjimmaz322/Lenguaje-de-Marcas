@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<title>Formulario</title>
+<link href="../images/favicon_raccoon.png" rel="shortcut icon"/>
+</head>
+<body>
+<h1>Formulario de entrada</h1>
+<form action="../index.html" method="get">
+<table>
+<tr>
+<td colspan="2">
+<p>
+<label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre">
+<br/><br/>
+<label for="apellidos">Apellidos: </label><input type="text" name="apellidos" id="apellidos" size="30">
+</p>
+</td>
+</tr>
+<tr>
+<td>
+Edad: <br/>
+<input type="radio" name="edad" id="0a20" value="0a20"/><label for="0a20">0 - 20</label><br/>
+<input type="radio" name="edad" id="20a40" value="20a40"/><label for="20a40">20 - 40</label><br/>
+<input type="radio" name="edad" id="40a60" value="40a60"/><label for="40a60">40 - 60</label><br/>
+<input type="radio" name="edad" id="60a100" value="60a100"/><label for="60a100">60 - 100</label><br/>
+</td>
+<td>
+¿Cómo nos conociste?<br/>
+<input type="checkbox" name="amigo" id="amigo"/><label for="amigo">A través de un amigo</label><br/>
+<input type="checkbox" name="buscador" id="buscador"/><label for="buscador">A través de un buscador</label><br/>
+<input type="checkbox" name="web" id="web"/><label for="web">Navegando por la web</label><br/>
+<input type="checkbox" name="otros" id="otros"/><label for="otros">Otros</label>
+</td>
+</tr>
+<tr>
+<td colspan="2"><label for="opinion">Opinión sobre nuestra página web</label><br/>
+<textarea name="opinion" id="opinion" placeholder="Escriba aquí su opinión..." cols="43" rows="6">
+</textarea>
+</td>
+</tr>
+<tr>
+<td>
+<label for="navegas">¿Cuánto navegas por internet? (Señala la opción que más se acerque)</label><br/>
+<select name="navegas" id="navegas" size="2">
+<option value="2h">2 horas al día</option>
+<option value="4h">4 horas al día</option>
+<option value="6h">6 horas al día</option>
+<option value="8h">8 horas al día</option>
+<option value="10h">10 horas al día</option>
+<option value="12h+">12 horas al día o más</option>
+</select>
+</td>
+<td></td>
+</tr>
+</table>
+<br/>
+<input type="submit" name="btnenviar" value="Ir al inicio"/>
+<input type="reset" value="Borrar el formulario"/>
+</form>
+</body>
+</html>

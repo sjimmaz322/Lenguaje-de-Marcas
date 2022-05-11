@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8"/> <!-- Si no funciona cambiar UTF-8 por ISO-8559-1 -->
+<title>Teoría CSS</title>
+<link href="" rel="shortcut icon"/>
+<link href="css/style.css" rel="stylesheet"/>
+
+<!-- Hacerlo en el mismo documento, segunda opción, algo más recomendable-->
+<!--
+<style>
+p{color:blue;text-decoration:underline;}
+blockquote{color:green;text-decoration:underline;}
+@import 'css/style.css' <-- este es muy raro de ver, pero es válido más o menos como el link
+</style>
+-->
+
+</head>
+<body>
+
+<h1>Teoría CSS</h1>
+<!-- Primera Opción: Se puede poner el style como atributo de etiqueta, aunque no es recomendable -->
+<!-- <p style="color:blue;text-decoration:underline;"> -->
+<p>
+<span class="verde grande">CSS</span> es un lenguaje de hojas de estilos creado para <strong>controlar el aspecto o <em>presentación</em> de los documentos electrónicos</strong> definidos con <span class="verde grande">HTML</span> y <span class="verde grande">XHTML</span>. <span class="verde grande">CSS</span> es la mejor forma de separar los contenidos y su presentación y es imprescindible para crear páginas web complejas.
+</p>
+
+<blockquote class="centrar">
+Separar la definición de los contenidos y la definición de su aspecto presenta numerosas ventajas, ya que obliga a crear documentos <span class="verde grande"><em>HTML/XHTML</em></span> bien definidos y con significado completo (también llamados "documentos semánticos"). Además, mejora la accesibilidad del documento, reduce la complejidad de su mantenimiento y permite visualizar el mismo documento en infinidad de dispositivos diferentes.
+</blockquote>
+
+<p class="verde">
+Al crear una página web, se utiliza en primer lugar el lenguaje <span id="h_esp">HTML/XHTML</span> para marcar los contenidos, es decir, para designar la función de cada elemento dentro de la página: párrafo, titular, texto destacado, tabla, lista de elementos, etc.
+</p>
+
+</body>
+</html>
+
+<!-- 
+Regla
+Selector { declaraciones}
+p { color: blue; text-decoration:underline; }
+-->
+<!-- Tercera forma, ponerlo en documento .css, la más recomendable -->
+
+<!-- 
+* en css es un selector universal
+*{
+margin: 0px; <-- Margen
+padding: 0px; <-- Relleno borde
+border: 1px solid black; <-- borde de 1 pixel, linea continua color negro
+}
+ -->

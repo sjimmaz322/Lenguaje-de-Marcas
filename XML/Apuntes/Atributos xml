@@ -1,0 +1,7 @@
+Tras la lista de elementos tenemos que poner la lista de los atributos de la siguiente manera.
+
+<!ATTLIST poblacion cod CDATA #REQUIRED>
+
+#REQUIRED --> Es obligatorio
+#FIXED --> Si aparece lo fijas a un valor, no es obligatorio, lo que le pongas tiene que ir entre comillas  #FIXED "Algo"
+#IMPLIED --> Es opcional

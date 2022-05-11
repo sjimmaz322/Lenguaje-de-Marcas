@@ -1,0 +1,10 @@
+html{box-sizing: border-box;height:100%; width: 100%;}
+*{box-sizing: inherit;margin: 0; padding: 0;}
+body{height:100%; width: 100%;}
+.ext {border: 1px solid grey; width: 50%;height: 100%;float: left;}
+div div{width: 30%; height: 30%; float:left; border: 1px solid black;margin-left: 2.5%; margin-top:2.5%;position:relative;}
+span{position:absolute;font-size: 10vh;top:50%;left:50%;margin-top: -.6em;margin-left: -.3em;}
+
+#disp{display: none;}
+#hidden{visibility: hidden;}
+

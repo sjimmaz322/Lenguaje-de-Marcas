@@ -1,0 +1,10 @@
+*{margin: 0px; padding: 0px; background-color: grey;}
+h1{color:green;text-decoration:underline; margin: 5px; }
+p{color:blue; margin: 5px;}
+blockquote{color:red;padding:5px; border: 1px solid black; margin: 10px; }
+em{color:purple;}
+p strong em{color:yellow;}
+.verde {color:green;}
+.grande {font-size: 32px;}
+.centrar {text-align: center;}
+#h_esp{text-decoration:underline;}

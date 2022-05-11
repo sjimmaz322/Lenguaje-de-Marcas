@@ -1,0 +1,46 @@
+*{
+margin: 5px 0px;
+padding: 5px 3px;
+}
+body { 
+  font-family: sans-serif; 
+  text-align: justify;
+  margin: 5px 0px; 
+}
+h1 {
+border: 5px solid black;
+text-align: center;
+}
+h2, h3, h4, h5, h6 { 
+  font-size: 120%; 
+  font-weight: normal;
+  margin:20px 0px; 
+}
+#esp2{
+border-left: 20px double red;
+padding: 0px;
+}
+#esp3{
+border-top: 5px dotted cyan;
+border-right: 10px dotted fuchsia;
+border-bottom: 10px dotted cyan;
+border-left: 20px dotted fuchsia;
+}
+#esp4{
+border-top: 15px double lime;
+border-bottom: 15px double blue;
+padding: 0px;
+}
+#esp5{
+border: 10px solid black;
+border-bottom: 10px dotted black;
+border-top: 10px dashed red;
+padding: 0px;
+}
+#esp6{
+border-top: 15px dotted black; 
+border-right: 10px solid black;
+border-bottom: 10px dashed black;
+border-left: 10px dotted red;
+padding: 0px;
+}

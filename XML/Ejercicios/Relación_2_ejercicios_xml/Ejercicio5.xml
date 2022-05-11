@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogo>
+	<arbol nombreCientifico="Acer monspessulanum">
+		<nombre_comun>Arce de Montpellier, Arce menor.</nombre_comun>
+		<vegetacion>Caducifolio.</vegetacion>
+		<altura>De 6 a 10 metros.</altura>
+		<forma_y_extructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante.</forma_y_extructura>
+		<color_en_primavera>Haz verde brillante, envés verde blanquecino.</color_en_primavera>
+		<resistencia_a_heladas>Heladas fuertes (hasta -15ºC)</resistencia_a_heladas>
+	</arbol>
+	<arbol nombreCientifico="Olea europea">
+		<nombre_comun>Olivo</nombre_comun>
+		<vegetacion>Perenner.</vegetacion>
+		<altura>De 8 a 15 metros.</altura>
+		<forma_y_extructura>Copa irregular. Tronco principal irregular con bifurcaciones. Ramaje Tortuoso.</forma_y_extructura>
+		<color_en_primavera>Haz verde oscuro, envés verde plateado.</color_en_primavera>
+		<resistencia_a_heladas>Heladas medias (hasta -10ºC)</resistencia_a_heladas>
+	</arbol>
+	<arbol nombreCientifico="Platanus orientalis">
+		<nombre_comun>Plátano</nombre_comun>
+		<vegetacion>Caducifolio.</vegetacion>
+		<altura>De 20 a 25 metros.</altura>
+		<forma_y_extructura>Copa ovoidal. Tronco principal recto.. Ramaje expandido.</forma_y_extructura>
+		<color_en_primavera>Haz verde medio, envés verde claro..</color_en_primavera>
+		<color_en_otoño>Ocre.</color_en_otoño>
+		<resistencia_a_heladas>Heladas fuertes (hasta -20ºC)</resistencia_a_heladas>
+	</arbol>
+	<arbol nombreCientifico="Quescus ilex">
+		<nombre_comun>Encina.</nombre_comun>
+		<vegetacion>Perenne.</vegetacion>
+		<altura>En torno a 25 metros.</altura>
+		<forma_y_extructura>Copa esférica o elíptica irregular.. Tronco principal recto.. Ramaje tortuoso.</forma_y_extructura>
+		<color_en_primavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado.</color_en_primavera>
+		<color_en_otoño>Ocre.</color_en_otoño>
+		<resistencia_a_heladas>Heladas fuertes (hasta -15ºC)</resistencia_a_heladas>
+	</arbol>
+</catalogo>

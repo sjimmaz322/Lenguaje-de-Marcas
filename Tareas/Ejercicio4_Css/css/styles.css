@@ -1,0 +1,24 @@
+*{
+background-color: #DBFFDB;
+}
+body {
+border: 5px solid #B8EAAD ;
+}
+h1 {
+border: 5px solid #F1FFF1;
+background-color: #B8EAAD ;
+text-align: center;
+}
+h2 {
+text-align: justify;
+border: 5px solid #B89BB1;
+border-bottom: none;
+background-color: #FCD4F2;
+}
+p {
+border: 5px solid #B89BB1;
+}
+hr {
+
+}
+verde claro #DBFFDB ; verde oscuro #B8EAAD ; blanco #F1FFF1; rosita #FCD4F2; moradito#B89BB1

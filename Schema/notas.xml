@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notas>
+	<nota xmlns:akai="http://www.w3.org/2001/XMLSchema-instance" akai:noNamespaceSchemaLocation="notas.xsd">
+		<de>Juan</de>
+		<para>Pedro</para>
+		<titulo>Recordatorio</titulo>
+		<contenido>Compra pan</contenido>
+	</nota>
+
+	<nota xmlns:akai="http://www.w3.org/2001/XMLSchema-instance" akai:noNamespaceSchemaLocation="notas.xsd">
+		<de>Juan</de>
+		<para>Pedro</para>
+		<fecha>01-01-2022</fecha>
+		<contenido>Compra pan</contenido>
+	</nota>
+</notas>

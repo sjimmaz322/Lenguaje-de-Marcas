@@ -1,0 +1,11 @@
+html{box-sizing:border-box;}
+*{box-sizing:inherit;margin:0;padding:0;}
+body{background-color:#d3d3d3;}
+
+#contenedor{margin:0 auto;width:90%;}
+#centro{overflow:hidden;margin:1em 0;}
+#cabecera{background-color:yellow;text-align:center;font-size:12pt;width:100%;}
+#izda{background-color:red;text-align:center;font-size:10pt;width:250px;float:left;margin-right:15px;}
+#mitad{background-color:green;text-align:justify;font-size:12pt;width:500px;float:left;margin-right:15px;}
+#drcha{background-color:lightblue;text-align:center;font-size:10pt;margin-left:780px;}
+#pie{background-color:#ab2a3e;text-align:center;color:yellow;font-size:8pt;width:100%;}

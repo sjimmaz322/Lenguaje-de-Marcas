@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE persona SYSTEM "personas.dtd">--><!-- DTD externo --> 
+<!DOCTYPE persona [<!ELEMENT persona (nombre,apellidos),direccion,(hombre|mujer),hijos?>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT direccion (#PCDATA,provincia,poblacion)*>
+<!ELEMENT hombre EMPTY>
+<!ELEMENT mujer EMPTY>
+<!ELEMENT hijos (hijo*)><!-- + es al menos 1 hasta infinito --> <!-- * es desde 0 hasta inifnito -->
+<!ELEMENT hijo (#PCDATA)>]> <!-- DTD interno -->
+<persona>
+	<nombre>Samuel Alejandro</nombre>
+	<apellidos>Jiménez Mazas</apellidos>
+	<direccion>
+		<provincia>Málaga</provincia>
+		Calle Gades
+		<poblacion>Manilva</poblacion>		
+	</direccion>
+	<hombre/>
+	<hijos>
+		<hijo></hijo>
+		<hijo></hijo>
+	</hijos>
+</persona>

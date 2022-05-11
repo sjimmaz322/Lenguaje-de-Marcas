@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<equipos>
+	<equipo>
+		<nombre>Real Betis Balompié</nombre>
+		<ciudad>Sevilla (España)</ciudad>
+		<entrenador/>
+		<jugadores>
+			<jugador posicion="Delantero">
+				<nombre>Nabil Fekir</nombre>
+				<nacionalidad>Franco-argelino</nacionalidad>
+			</jugador>
+			<jugador posicion="Centrocampista">
+				<nombre>Joaquin Sánchez Rodríguez</nombre>
+				<nacionalidad>Español</nacionalidad>
+			</jugador>
+		</jugadores>
+	</equipo>
+	
+	<equipo>
+		<nombre>Córdoba Club de Futbol</nombre>
+		<ciudad>Córdoba</ciudad>
+		<entrenador/>
+		<jugadores>
+			<jugador posicion="Lateral Izquierdo">
+				<nombre>Dragisa Gudelj</nombre>
+				<nacionalidad>Serbio</nacionalidad>
+			</jugador>
+			<jugador posicion="Centrocampista">
+				<nombre>Antonio Arranz</nombre>
+				<nacionalidad>Español</nacionalidad>
+			</jugador>
+		</jugadores>
+	</equipo>
+</equipos>

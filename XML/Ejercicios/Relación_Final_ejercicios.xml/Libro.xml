@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Libro SYSTEM "Libro.dtd">
+<Libro id="identif">
+<Titulo></Titulo>
+<Contenido>
+	<Capitulo>
+		<Tema></Tema>
+		<Seccion apartados=""></Seccion>
+	</Capitulo>
+	<Separacion></Separacion>
+</Contenido>
+<Copyright></Copyright>
+</Libro>

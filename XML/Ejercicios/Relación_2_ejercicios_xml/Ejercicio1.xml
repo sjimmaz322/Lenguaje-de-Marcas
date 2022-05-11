@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pedido>
+Pedido para el 
+<destinatario>
+<trato>señor</trato>
+<nombre>Juan</nombre>
+<apellido1>Delgado</apellido1>
+<apellido2>Martínez</apellido2>
+</destinatario>. El pedido se compone de una 
+<articulo>
+bicicleta 
+A2023
+</articulo>. A entregar en la <direccion_entrega>calle Barco 4, tercer piso, letra A</direccion_entrega>, el día <fecha_entrega>19-5-2000</fecha_entrega>.
+</pedido>

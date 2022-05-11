@@ -1,0 +1,13 @@
+<!ELEMENT banco (sucursal+)>
+<!ELEMENT sucursal (cuenta+)>
+<!ELEMENT cuenta (cliente+)>
+<!ELEMENT cliente (nombre, apellidos, nivel,  prestamo*)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT prestamo (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
+
+<!ATTLIST sucursal cod ID #REQUIRED>
+<!ATTLIST cuenta cod_cuenta ID #REQUIRED>
+<!ATTLIST cliente nif ID #REQUIRED>

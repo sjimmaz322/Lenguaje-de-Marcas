@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cartelera>
+	<pelicula>
+		<titulo>Little Nicky</titulo>
+		<tituloOriginal>Little Nicky</tituloOriginal>
+		<pais>USA</pais>
+		<año>200</año>
+		<duracion>93 min</duracion>
+		<interpretes>
+			<actor>Adam Sandler</actor>
+			<actor>Patricia Arquette</actor>
+			<actor>Harvey Keitel</actor>
+			<actor>Rhys Ifans</actor>
+			<actor>Rodney Dangerfield</actor>
+		</interpretes>
+		<sinosis>Tras diez mil años de duro trabajo, Satanás está deseando retirarse, pero ninguno de sus hijos es lo bastante malvado para sustituirlo. Los mayores, Cassius y Adrian, cansados de la tiranía de su padre, deciden marcharse a Nueva York para instaurar su propio reino infernal. Nicky, el más pequeño y tonto, conseguirá evitar la sucesión encarnándose en un hombre.</sinosis>
+		<enlace/>
+		<pegi>Comedia autorizada para mayores de 16 años</pegi>
+		<fichGrafico>cartel.jpg</fichGrafico>
+	</pelicula>
+	
+	<pelicula>
+		<titulo>La calle del terror. Parte 1: 1994</titulo>
+		<tituloOriginal>Fear Street Part One: 1994</tituloOriginal>
+		<pais>USA</pais>
+		<año>2021</año>
+		<duracion>107</duracion>
+		<interpretes>
+			<actor>Kiana Madeira</actor>
+			<actor>Olivia Welch</actor>
+			<actor>Benjamin Flores Jr.</actor>
+			<actor>Julia Rehwald</actor>
+			<actor>Fred Hechinger</actor>
+		</interpretes>
+		<sinosis>En 1994, un grupo de adolescentes descubre que los sucesos que aterrorizan su ciudad desde hace generaciones podrían estar conectados. Además, puede que ahora les toque a ellos protagonizar la pesadilla. Primera parte de la trilogía basada en las famosas novelas de miedo de R. L. Stine.</sinosis>
+		<enlace/>
+		<pegi>Thriller autorizado para mayores de 16 años.</pegi>
+		<fichGrafico>cartel.jpg</fichGrafico>
+	</pelicula>
+	
+	<pelicula>
+		<titulo>Conan, el bárbaro</titulo>
+		<tituloOriginal>Conan the barbarian</tituloOriginal>
+		<pais>USA</pais>
+		<año>1982</año>
+		<duracion>129 min</duracion>
+		<interpretes>
+			<actor>Arnold Schwarzenegger</actor>
+			<actor>James Earl Jones</actor>
+			<actor>Sandahl bergman</actor>
+			<actor>Max von Sydow</actor>
+			<actor>Ben Davidson</actor>
+		</interpretes>
+		<sinosis>Un niño que pertenece a una tribu primitiva graba en su memoria los rostros de los guerreros que han exterminado a su familia y a él lo han vendido a unos mercaderes de esclavos. Años después, el joven se ha convertido en un forzudo y valiente guerrero. </sinosis>
+		<enlace/>
+		<pegi>Acción para mayores de 18 años.</pegi>
+		<fichGrafico>cartel.jpg</fichGrafico>
+	</pelicula>
+	
+	<pelicula>
+		<titulo>¡Que te calles></titulo>
+		<tituloOriginal>Tais-toi!</tituloOriginal>
+		<pais>Francia</pais>
+		<año>2003</año>
+		<duracion>85 min</duracion>
+		<interpretes>
+			<actor>Gérard Depardieu</actor>
+			<actor>Jean Reno</actor>
+			<actor>André Dussollier</actor>
+			<actor>Jean-Pierre Malo</actor>
+			<actor>Richard Berry</actor>
+		</interpretes>
+		<sinosis>Quentin, un tipo que vuelve loco a todo el mundo con su parloteo incesante, es detenido después de un atraco y acaba compartiendo celda con Ruby, un adusto delincuente que se niega a hablar con los demás. Antes de entrar en la cárcel, Ruby consiguió esconder una gran cantidad de dinero que le había robado a Vogel, un peligroso criminal que mató a su amante. Quentin hace todo lo posible para ganarse la simpatía de Ruby y, aprovechando que los dos han sido llevados al pabellón psiquiátrico, organiza una torpe pero exitosa huida.</sinosis>
+		<enlace/>
+		<pegi>Comedia para mayores de 13 años.</pegi>
+		<fichGrafico>cartel.jpg</fichGrafico>
+	</pelicula>
+	
+	<pelicula>
+		<titulo>El buen patrón</titulo>
+		<tituloOriginal/>
+		<pais>España</pais>
+		<año>2021</año>
+		<duracion>120 min</duracion>
+		<interpretes>
+			<actor>Javier Bardem</actor>
+			<actor>Manolo Solo</actor>
+			<actor>Almudena Amor</actor>
+			<actor>Óscar de la Fuente</actor>
+			<actor>Sonia Almarcha</actor>
+		</interpretes>
+		<sinosis>Julio Blanco, el carismático propietario de una empresa que fabrica balanzas industriales en una ciudad española de provincias, espera la inminente visita de una comisión que decidirá la obtención de un premio local a la excelencia empresarial. Todo tiene que estar perfecto para la visita. Sin embargo, todo parece conspirar contra él. Trabajando a contrarreloj, Blanco intenta resolver los problemas de sus empleados, cruzando para ello todas las líneas imaginables, y dando lugar a una inesperada y explosiva sucesión de acontecimientos de imprevisibles consecuencias.</sinosis>
+		<enlace/>
+		<pegi>Comedia para mayores de 16 años.</pegi>
+		<fichGrafico>cartel.jpg</fichGrafico>
+	</pelicula>
+</cartelera>

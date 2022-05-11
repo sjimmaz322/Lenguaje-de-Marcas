@@ -1,0 +1,30 @@
+div {
+border: 1px solid black; 
+width: 30%; 
+margin: 0 auto;
+position:relative;
+}
+p {
+border: 10px solid red;
+width: 20%;
+margin: 2em auto;
+overflow: auto;
+}
+.esp {
+padding: 1.5em;
+}
+.other {
+box-sizing: border-box;
+}
+#p1 {
+
+}
+#p2 {
+position: fixed;
+top: .5em;
+left: .5em;
+}
+#p3 {
+
+}
+/* Esto es un comentario */

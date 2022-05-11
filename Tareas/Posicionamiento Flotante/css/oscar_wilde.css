@@ -1,0 +1,7 @@
+html{font-family: sans-serif;box-sizing: border-box;height:100%; width: 100%;}
+*{box-sizing: inherit;}
+body{background-color: #FDDBBD;height: 100%;width: 100%;text-align: justify;}
+h1{text-align: center;color: #B0B0B0;text-transform: uppercase;padding-top: 10px;}
+p{border: 3px dashed #C9A568;background-color:#F2D0AB;height:30%;width:30%; float: left;margin-left: 2.5%;padding: 0.5em;line-height: 1.5em;font-style: oblique;}
+p:first-letter{font-style:normal; color:#C9A568; font-size: 2em; float:left; }
+

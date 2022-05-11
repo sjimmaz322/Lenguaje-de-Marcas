@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aka:schema xmlns:aka="http://www.w3.org/2001/XMLSchema">
+<aka:element name="facturas" type="tipoFacturas"/>
+<aka:complexType name="tipoFacturas">
+    <aka:sequence>
+        <aka:element name="factura" type="tipoFactura"/>
+    </aka:sequence>
+    
+</aka:complexType>
+<aka:complexType name="tipoFactura"></aka:complexType>
+</aka:schema>

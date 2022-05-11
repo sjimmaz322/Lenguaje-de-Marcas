@@ -1,0 +1,20 @@
+html{box-sizing:border-box;}
+*{box-sizing:inherit;margin:0;padding:0;}
+body{height:100%;width:100%;padding:1em;}
+h1{text-transform:uppercase;text-align:center; background-color:#d3d3d3;margin-top: 0.5em;margin-bottom:0.5em;}
+legend{border: 2px solid #d3d3d3;background-color:#ffffff;padding:0.1em;}
+fieldset{background-color:#d3d3d3;}
+.externa{width:50%;float:left;}
+#botones{clear:both;text-align:right;}
+fieldset{padding:0.25em;}
+div div div{float:left;}
+div div{overflow:hidden;}
+label{display:block;}
+.primero{width:60%;}
+.externa > div{margin-top:0.25em;}
+#dom1{width:15%;}
+#dom2{width:82.5%;}
+.esp{width:100%;}
+.subred{color:red;text-decoration:underline;}
+/*.esp select, .esp input{float:left;}*/
+

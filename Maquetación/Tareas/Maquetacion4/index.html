@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Maquetación 4</title>
+	<meta charset="UTF-8"/>
+	<link href="images/favicon.png" rel="shortcut icon"/>
+	<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<h1>Maquetación de un formulario</h1>
+<div id="menu">
+<ul>
+	<li><a href="">Item uno</a></li>
+	<li><a href="">Item dos</a></li>
+	<li><a href="">Item tres</a></li>
+	<li><a href="">Item cuatro</a></li>
+</ul>
+</div>
+<div id="contenedor">
+<!--4--><div id="cuerpo">
+	<!--3--><div id="centro">
+		<!--1--><div id="izda">
+		<h2>Noticias</h2>
+		<p>
+		Quisque faucibus, nibh in fermentum condimentum, risus velit auctor lacus, at ultricies tortor lacus a urna. Duis ex ligula, sagittis non pellentesque in, varius a lorem. Proin efficitur, enim eget cursus sollicitudin, elit neque dapibus dui, quis pretium ipsum sem in felis. Praesent sodales tellus consequat, fringilla nisi a, semper metus. Nunc et consectetur elit, non ullamcorper velit. Sed iaculis vestibulum dolor id congue.
+		</p>
+		<!--1--></div>
+		<!--2--><div id="drcha">
+		<form action="index.html" method="get" enctype="multipart/form-data">
+			<div><h2>Formulario</h2></div>
+			<div class="base">
+				<div class="I"><label for="name">Nombre: </label></div>
+				<div class="D"><input type="text" name="name"id="name"/></div>
+			</div>
+			<div class="base">
+				<div class="I"><label for="email">Email: </label></div>
+				<div class="D"><input type="text" name="email"id="email"/></div>
+			</div>
+			<div class="base">
+				<div class="I"><label for="mensaje">Mensaje: </label></div>
+				<div class="D"><input type="text" name="mensaje" id="mensaje" value=""/></div>
+			</div>
+			<div class="base">
+				<div class="I"><label for="sexo">Sexo: <label></div>
+				<div class="D"><label for="hombre">Masculino. </label><input type="radio" name="sexo" id="hombre" value="hombre"/>
+				<label for="mujer">Femenino. </label><input type="radio" name="sexo" id="mujer" value="mujer"/></div>
+			</div>
+			<div class="base">	
+				<div class="I">Color preferido: </div>
+				<div class="D">
+					<input type="checkbox" name="rojo" id="rojo" value="rojo"/><label for="rojo">Rojo</label></br>
+					<input type="checkbox" name="verde" id="verde" value="verde"/><label for="verde">Verde</label></br>
+					<input type="checkbox" name="azul" id="azul" value="azul"/><label for="azul">Azul</label>
+				</div> 
+			</div>
+			<div class="base">	
+				<div class="I"><label for="term"><strong>Acepto los términos </strong></label></div>
+				<div class="D"><input type="checkbox" name="term" id="term" value="term"/></div>
+			</div>
+			<div>
+				<div class="D">
+				<input type="submit" name="submit" id="submit" value="Submit">
+				<input type="reset" name="reset" id="reset" value="Reset">
+				</div>
+			</div>
+	<!--2--></div>
+		
+	<!--3--></div>
+<!--4--></div>
+</div>
+<!--5--><div id="pie">
+<p>Contenido exclusivo de <a href="https://maralboran.eu/">Mar de Alborán</a></p>
+<!--5--></div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+* {
+
+}
+p {
+width: 75%;
+height: 200px;
+padding: 1em 5em 3em 1em;
+border: 2px dashed blue;
+border-right: none;
+background-color: lightblue;
+background: teal  url(''../images/water-background.png'') center 50%;
+margin: 3em;
+
+}
+body 
+{
+
+background-color: olive;
+}
+strong
+{
+border: solid black 1px;
+padding: .5em;
+margin-right: 50px;
+}
+img
+{
+height: 50px;
+width: 50px;
+}
+h1{
+border: 1px solid black;
+}
+#esp{
+margin: 5em;
+}

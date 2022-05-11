@@ -1,0 +1,14 @@
+<!ELEMENT html (head, body)>
+<!ELEMENT head (meta, title)>
+<!ELEMENT body (p*)>
+<!ELEMENT meta EMPTY>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT p (#PCDATA)>
+
+<!ATTLIST html xmlns CDATA #IMPLIED>
+<!ATTLIST meta http-equiv NMTOKENS #IMPLIED>
+<!ATTLIST meta content CDATA #IMPLIED>
+<!ATTLIST body bgcolor CDATA #IMPLIED>
+<!ATTLIST p align NMTOKEN #IMPLIED>
+
+<!ENTITY iacute "í">

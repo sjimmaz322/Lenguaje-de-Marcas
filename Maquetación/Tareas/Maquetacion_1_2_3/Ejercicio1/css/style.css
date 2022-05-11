@@ -1,0 +1,12 @@
+html{box-sizing:border-box;}
+*{box-sizing: inherit;margin:0;padding:0;}
+body{background-color:#d3d3d3;}
+
+#contenedor{width:90%;margin:0 auto;}
+#cabecera{width:100%;background-color:green;font-size:12pt;}
+#centro{overflow:hidden;margin:1em 0;}
+#izda{background-color:red;width:300px;float:left;font-size:10pt;margin-right:5px;margin-top:15px;margin-bottom:15px;}
+#drcha{font-size:13pt;background-color:lightblue;margin-top:15px;margin-bottom:15px;margin-left:315px;}
+p{text-align:center;font-family:verdana;}
+#pie{background-color:yellow;width:100%;}
+a{text-decoration:none;color:black;}

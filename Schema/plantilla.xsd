@@ -1,0 +1,22 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<aka:schema xmlns:aka="http://www.w3.org/2001/XMLSchema">
+
+<nota xmlns:akai="http://www.w3.org/2001/XMLSchema-instance" akai:noNamespaceSchemaLocation="ruta del archivo xsd">
+(Va dentro del xml )   
+
+<aka:element name="nombre" type="tipo" />
+
+(Un complexType por cada elemento que tenga elementos dentro)
+	<aka:complexType name="tipo" mixed="true">
+        <aka:attribute name="nombre" type="tipo"/>
+		<aka:sequence>
+			(sequence para mantener el orden, all para que el orden de igual)
+			<aka:element name="nombre" type="tipo" minOccurs="1" maxOccurs="unbounded"/>
+			<aka:choice> choice para uno solo
+				<aka:element name="nombre" type="tipo" />
+			</aka:choice>
+		</aka:sequence>
+	</aka:complexType>
+</aka:schema>
+-->

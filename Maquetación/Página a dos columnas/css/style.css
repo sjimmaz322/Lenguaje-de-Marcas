@@ -1,0 +1,14 @@
+html{box-sizing:border-box}/*Para dar altura por porcentajes tienes que poner aquí y en body la altura y anchura*/
+*{box-sizing: inherit;margin:0;padding:0;}
+body{background-color: #d3d3d3;}
+
+#contenedor{width:90%;margin:0 auto;border:5px solid black;}
+#cabecera{width:100%; height:150px;border:5px solid lightgreen;}
+
+#centro{border:5px solid fuchsia;overflow:hidden;}
+
+#izda{height:300px;width:30%;border:5px solid orange;float:left;}
+#drcha{height:500px;width:70%;border:5px solid blue;float:left;}
+
+#pie{height:50px;border:5px solid red;}
+

@@ -1,0 +1,26 @@
+html {box-sizing: border-box;height:100%;width:100%;}
+*{box-sizing: inherit;height:100%;width:100%;margin:0;padding:0;}
+.tablero{height:100%;width:100%;border: 1px solid black;}
+.casillas{border:1px solid black;}
+.casillas > div{border:1px solid black;}
+div{height:33.3333333333%;width:33.3333333333%;float:left;position:relative;}
+.red{background-color: red;border: 1px solid black;}
+.blue{background-color:blue;border: 1px solid black;}
+.green{background-color:green;border: 1px solid black;}
+.yellow{background-color:yellow;border: 1px solid black;}
+div > div > div{height:14.285714286%; width:33.3333333333%;}
+#centro{height:0;width:0;border-top:16.6666666666vh solid red;border-right: 16.6666666666vw solid blue; border-left:16.6666666666vw solid green;border-bottom:16.6666666666vh solid yellow;position:relative;}
+.center{position:relative;overflow:hidden;}
+#trap1{width:33.3333333333%;height:0;border-top:4.761904762vh solid white;border-left:4.761904762vw solid transparent;position:absolute;top:0;left:0;}
+#trap2{width:33.3333333333%; height:0;border-top:4.761904762vh solid white;border-right:4.761904762vw solid transparent;position:absolute;top:0;right:0;}
+#trap3{height:33.3333333333%;width:0;border-top:4.761904762vh solid transparent;border-right:4.761904762vw solid white;position:absolute;top:0;right:0;}
+#trap4{height:33.3333333333%;width:0;border-bottom:4.761904762vh solid transparent;border-right:4.761904762vw solid white;position:absolute;bottom:0;right:0;}
+#trap5{width:33.3333333333%; height:0;border-bottom:4.761904762vh solid white;border-right:4.761904762vw solid transparent;position:absolute;bottom:0;right:0;}
+#trap6{width:33.3333333333%; height:0;border-bottom:4.761904762vh solid white;border-left:4.761904762vw solid transparent;position:absolute;bottom:0;left:0;}
+#trap7{height:33.3333333333%;width:0;border-bottom:4.761904762vh solid transparent;border-left:4.761904762vw solid white;position:absolute;bottom:0;left:0;}
+#trap8{height:33.3333333333%;width:0;border-top:4.761904762vh solid transparent;border-left:4.761904762vw solid white;position:absolute;top:0;left:0;}
+
+#esquina1{height:4.761904762vh;width:33.3333333333%;background-color:black; position:absolute;top:1px;left:0;}
+#esquina2{width:4.761904762vh;height:33.3333333333%;background-color:black; position:absolute;top:0px;left:1;}
+#esquina3{height:4.761904762vh;width:33.3333333333%;background-color:black; position:absolute;top:1px;left:0;}
+#esquina4{height:4.761904762vh;width:33.3333333333%;background-color:black; position:absolute;top:1px;left:0;}

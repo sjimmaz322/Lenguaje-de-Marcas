@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE buzon [
+
+<!ELEMENT buzon (compartimento)>
+<!ELEMENT compartimento (carta|paquete)*>
+<!ELEMENT carta EMPTY>
+<!ELEMENT paquete EMPTY>
+
+<!ATTLIST buzon direccion ID #REQUIRED>
+<!ATTLIST carta remitente CDATA #REQUIRED>
+<!ATTLIST carta emisor CDATA #REQUIRED>
+<!ATTLIST carta contenido CDATA #IMPLIED>
+<!ATTLIST  paquete remitente CDATA #REQUIRED>
+<!ATTLIST  paquete emisor CDATA #REQUIRED>
+<!ATTLIST  paquete contenido CDATA #IMPLIED>
+
+]>
+<buzon direccion="St">
+	<compartimento>
+		<carta remitente="" emisor="" contenido=""/>
+		<paquete  remitente="" emisor="" contenido=""/>
+	</compartimento>
+</buzon>

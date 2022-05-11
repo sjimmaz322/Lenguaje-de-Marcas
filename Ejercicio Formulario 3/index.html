@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Ejercicio Formulario 3</title>
+	<link href="" rel="shortcut icon"/>
+	<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+	<h1>Ejemplo de formulario</h1>
+	<form action="index.html" method="post" enctype="multipart/form-data">
+	<fieldset>
+	<legend>Datos personales</legend>
+	
+		<div class="externa">
+			<div>
+				<div class="primero">
+					<label for="apellido"><span class="subred">A</span>pellido: </label>
+					<input type="text" name="apellido" id="apellido"/>
+				</div>
+				<div>
+					<label for="nombre">N<span class="subred">o</span>mbre: </label>
+					<input type="text" name="nombre" id="nombre"/>
+				</div>
+			</div>
+			<div>
+				<div class="primero">
+					<label for="nacid"><span class="subred">N</span>acido en: </label>
+					<input type="text" name="nacid" id="nacid" value=""/>
+				</div>
+				<div>
+					<label for="prov">Provincia</label>
+					<select id="prov" name="prov">
+						<option value="Jaén">Jaén</option>
+						<option value="Córdoba">Córdoba</option>
+						<option value="Sevilla">Sevilla</option>
+						<option value="Huelva">Huelva</option>
+						<option value="Cádiz">Cádiz</option>
+						<option value="Málaga" selected>Málaga</option>
+						<option value="Granada">Granada</option>
+						<option value="Almeria">Almeria</option>
+					</select>
+				</div>
+			</div>
+			<div>
+					<div class="esp">
+						
+						<label for="domic">Do<span class="subred">m</span>icilio: </label>
+						<select name="domic" id="dom1">
+							<option value="Calle">Calle</option>
+							<option value="Via">Via</option>
+							<option value="Avenida">Avenida</option>
+							<option value="Comunidad">Comunidad</option>
+							<option value="Carretera">Carretera</option>
+			</select>
+						<input type="text" name="domic" id="dom2" value=""/>
+						
+					</div>
+			</div>
+			<div>
+				<div class="primero">
+					<label for="loc"><span class="subred">L</span>ocalidad: </label>
+					<input type="text" name="loc" id="loc" value=""/>
+				</div>
+				<div>
+					<label for="prov2">Provincia</label>
+					<select id="prov2" name="prov2">
+						<option value="Jaén">Jaén</option>
+						<option value="Córdoba">Córdoba</option>
+						<option value="Sevilla">Sevilla</option>
+						<option value="Huelva">Huelva</option>
+						<option value="Cádiz">Cádiz</option>
+						<option value="Málaga" selected>Málaga</option>
+						<option value="Granada">Granada</option>
+						<option value="Almeria">Almeria</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="externa">
+			<div>
+				<div>
+					<label for="dni"><span class="subred">D</span>NI: </label>
+					<input type="text" name="dni" id="dni" value=""/>
+				</div>
+			</div>
+			<div>
+				<div>
+					<label for="fechnaci"><span class="subred">F</span>echa nacimiento (dd/mm/aaaa): </label>
+					<input type="text" name="fechnaci" id="fechnaci" value=""/>
+				</div>
+			</div>
+			<div>
+				<div>
+					<label for="cp"><span class="subred">C</span>ódigo Postal: </label>
+					<input type="text" name="cp" id="cp" value=""/>
+				</div>
+			</div>
+			<div>
+				<div>
+					<label for="tlf"><span class="subred">T</span>eléfono: </label>
+					<input type="text" name="tlf" id="tlf" value=""/>
+				</div>
+			</div>
+		</div>
+		<div id="botones">
+			<input type="reset" value="Borrar todo" name="btnborrar" id="btnborrar"/>
+			<input type="submit" value="Enviar" name="btnenviar" id="btnenviar"/>
+		</div>
+	</fieldset>
+	</form>
+</body>
+</html>

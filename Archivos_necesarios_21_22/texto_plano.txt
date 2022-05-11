@@ -1,0 +1,47 @@
+﻿Ejemplo de Listas Anidadas
+Las Listas en HTML:
+Las Listas No Ordenadas.
+Unalista en la que el orden de sus elementos no es significatico. Por ejemplo:
+Ex_Machina
+Director:Alex Garland
+Actores:
+Chelsea Li
+Alicia Vikander
+Oscar Isaac
+Domhnall Gleeson
+El Francotirador
+Director:Clint Eastwood
+Actores:
+Jake MacDorman
+Bradley Cooper
+Sienna Miller
+Las Listas Ordenadas
+Una lista en la que sus elementos están ordenados. Por ejemplo:
+Primero Gatear
+Mano A
+Pierna B sección inferior
+Rodilla
+Tibia
+Peroné
+Pie
+ManoB
+Pierna A sección inferior
+, después Caminar
+Pierna A
+Pierna B
+y finalmente... ¡Correr!
+Las Listas de Definiciones.
+Una lista de asociaciones formadas por grupos de términos y sus correspondientes descripciones.
+
+
+
+El Ártico ha perdido el 14% de su hielo marino perenne en un solo año
+ 
+WASHINGTON.- El hielo perenne del Ártico se redujo en un 14% durante el último año, al perder 720.000 kilómetros cuadrados, una superficie superior a la Península Ibérica, según datos de la NASA.
+
+ 
+Según el JPL, la pérdida del hielo perenne, que debiera mantenerse durante todo el verano, fue todavía mayor y se acercó a un 50%,55% el momento en que ese hielo se desplazaba desde el Ártico oriental hacia el oeste.
+ 
+Son Nghiem, investigador del JPL ha declarado que:
+ 
+"Los cambios registrados en esos años en el hielo ártico son rápidos y espectaculares. De mantenerse la situación, ésta tendrá un impacto profundo en el ambiente, así como en el transporte marino y el comercio."

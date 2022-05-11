@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/> <!--Si falla cambiar el charset a ISO-8559-1-->
+		<title>Formularios</title>
+	</head>
+	
+<body>
+	<h1 align="left">Teoría de Formularios</h1>
+	<form action="prueba.html" method="post" align="left"> 
+		<!-- action es como href pero único para formularios indica a donde se mandan los datos -->
+		<!-- post es para datos invisibles y get para visibles en la URL -->
+		<!-- Siempre que haya archivo que mandar irá con post e irá con enctype="multipart/form-data" -->
+			
+	<p><label for="nombre">Nombre:&nbsp;</label><input type="text" name="nombre" id="nombre" value="" placeholder="Teclée su nombre" size="25" maxlength="15" required/></p>
+		<!-- Es un campo de introducción de datos, sirve para introducir texto por el type="text"-->	
+		<!-- name sirve para que se manden los datos, es obligatorio -->
+		<!-- Etiqueta label es para decir que es una etiqueta, el atributo 'for' enlaza label con una id -->
+		<!-- value dentro de input hace que esté automáticamente relleno con lo escrito dentro de value -->
+		<!-- Para indicar lo que hay que escribir se utiliza placeholder -->
+		<!-- size para hacerlo visualmente más grande -->
+		<!-- maxlenght es para poner un máximo de caracteres -->
+		<!-- required para que sea obligatorio rellenar ese campo -->
+	<p><label for="clave">Contraseña:&nbsp;</label><input type="password" name="contraseña" id="clave" placeholder="Teclée su contraseña" size="30" maxlength="15" required/></p>
+		<!-- input de tipo password para introducir contraseñas --> 	
+		<!-- NUNCA pongas formularios con contraseña como get -->
+	<p><input type="checkbox" name="acepto" id="acepto" checked required/><label for="acepto">Acepto los términos</label></p>
+		<!-- para que aparezca el típico cuadrado para aceptar términos -->
+		<!-- checked para que aparezca marcada y required para que obligatoriamente tenga que estar marcada para continuar -->
+	<p><lable>Sexo:</label></p>
+	<p>
+		<input type="radio" name="sexo" id="hombre" value="hombre">&nbsp;<label for="hombre">Hombre</label><br/>
+		<input type="radio" name="sexo" id="mujer" value="mujer" checked>&nbsp;<label for="mujer">Mujer</label>
+		<!-- type radio para poner varias opciones, como en un tipo test -->
+		<!-- hay que darle value para que la página entienda -->
+		<!-- ambos deben tener el mismo name para que sean excluyentes -->
+	</p>
+		
+	<p>
+	<input type="submit" value="Enviar" name="btnEnviar"/>&nbsp;<input type="reset" value="Borrar" name="btnBorrar"/>
+	<!-- Sirve para poner el botón de aceptar y enviar información -->
+	<!-- value para que tenga nombre en el botón, name para que envíe la información -->
+	</p>
+		
+		
+	<p>
+		<h2>Textarea</h2>
+		<textarea name="comentarios" id="comentarios" rows="10" cols="30" placeholder="Escriba su comentario"></textarea>
+		<!-- Sirve para poner un área de texto para escribir textos más extensos dentro -->
+		<!-- rows y cols controlan sus dimensiones -->
+	</p>
+	
+	<p>
+		<label for="select">Una letra</label>		
+		<select name="select" id="select" size="4" multiple>
+		<optgroup label="Dos letras">
+			<option value="A" selected>A</option>
+			<option value="B">B</option>
+		</optgroup>
+		<optgroup label="Dos letras">
+			<option value="C">C</option>
+			<option value="D">D</option>
+		</optgroup>
+		</select>
+		<!-- Coloca una lista desplegable con varias opciones -->
+		<!-- selected te marca esa como predeterminada marcada -->
+		<!-- Size en este caso marca cuantas opciones se ve de manera predeterminada -->
+		<!-- multiple permite marcar más de uno -->
+	</p>
+			
+			
+	</form>
+</body>
+</html>

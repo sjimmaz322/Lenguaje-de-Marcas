@@ -1,0 +1,11 @@
+*{ margin:0; padding: 0;}
+body{background-color:#FFF173; padding: 0 2%; font-family: sans-serif; }
+.white{background-color:white;padding: 0.5% 0;}
+.white > div {background-color: #FFC533;width:60%;margin: 2% auto;padding: 0.5%;}
+.amarillo {background-color: #FFDA33;margin: 2% auto;padding: 0.5%;}
+.amarillo > div {background-color: #FF7700;padding: 0.3%;margin-bottom: 0.7%; }
+p {color: black;background-color: #FFDA33;padding: 0.2%;}
+h3{padding: 0.1%;}
+.amarillo  h3 {color: white;}
+.amarillo p {padding: 0.2%;}
+#ult{background-color: #FFF173;}

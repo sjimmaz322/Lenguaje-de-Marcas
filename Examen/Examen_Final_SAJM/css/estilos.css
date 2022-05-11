@@ -1,0 +1,37 @@
+html{box-sizing:border-box;}
+*{box-sizing: inherit;margin:0; padding:0;}
+body{height:100%; width:100%;}
+/*div{border:1px solid black;}*/
+#contenedor{width:90%; margin: 0 auto; background-color:#f5f4f9;overflow:hidden;}
+#cabecera{background-color:#1a2e35;}
+#menu{background-color:#1a2e35;}
+#pie{background-color:black;}
+#formulario{background-color:white;}
+#sinre{width:16.5%;float:left;background-color:#c3c3c3;border:1px solid black;margin-left:5px;}
+#gratis{width:16.5%;float:left;background-color:#c3c3c3;border:1px solid black;margin-left:5px;}
+.block{text-align:center;display:block;text-decoration:none;color:#7b8e9c;}
+ul{list-style:none;}
+ol{list-style:none;display:block;}
+ol li{color:#517985;padding-left:45%;}
+ul li{width:10%;float:left;background-color:#1a2e35;height:50px;}
+ul li:hover{width:10%;float:left;background-color:#111f25;height:50px;}
+h2{text-align:center;color:black;}
+.logo{margin:0;}
+img{display:block;margin:0 auto;}
+#jornadas{width:95%;margin:2,5%}
+.jornada{background-color:white;overflow:hidden;float:left;width:20%;}
+.jornada div{float:left;margin:5px;padding-right:5px;}
+.rojo{color:red;}
+form{background-color:#d8f3fd;overflow:hidden;margin:15px;}
+form>div{border-bottom:1px solid white;}
+.medi{width:50%; float:left;text-align:left;clear:both;overflow:hidden;border-bottom:1px solid white;}
+.medd{width:50%; float:right;overflow:hidden;border-bottom:1px solid white;}
+input{width:100%;}
+.clasic{color:blue;text-decoration:underline;}
+.peq{width:2%;float:left;border-bottom:1px solid white;}
+.comp{width:98%;float:right;text-align:left;border-bottom:1px solid white;}
+.left{width:100%;border-bottom:1px solid white;}
+#visitado1{width:48%;float:left;background-color:white;margin:1%;overflow:hidden;}
+#visitado2{width:48%;float:left;background-color:white;margin:1%;overflow:hidden;}}
+.apie{text-decoration:none;color:#517985;}
+.apie:visited{text-decoration:none;color:#517985;}

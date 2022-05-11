@@ -1,0 +1,10 @@
+<!ELEMENT persona (nombre,apellidos,(hombre|mujer))>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT hombre EMPTY>
+<!ELEMENT mujer EMPTY>
+<!-- poniendo ? tras un campo de la raiz permite decir que es opcional, o sea, puede o no aparecer -->
+<!-- poniendo | entre dos campos de la raiz permite decir que se manda uno u otro, los dos no -->
+<!-- poniendo (orden)|(otro orden) permite que el orden de los elementos deje de ser importante -->
+<!-- (#PCDATA) para guardar datos, aunque tb acepta vacío-->
+<!-- EMPTY tiene que ir vacío -->
