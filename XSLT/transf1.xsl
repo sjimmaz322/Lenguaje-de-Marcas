@@ -5,11 +5,11 @@
         <html>
             <head>
                 <title>Tranformación 1</title>
-                <meta charset="UTF-8"></meta>
+                <meta charset="UTF-8"/>
             </head>
             <body>
                 <h1>Información de mis Libros</h1>
-                <xsl:apply-templates></xsl:apply-templates>
+                <xsl:apply-templates/>
             </body>
         </html>
     </xsl:template>
@@ -18,6 +18,7 @@
         <p>
            <b>Titulo:</b>               <xsl:value-of select="titulo"/>;
            <b>Autor:</b>                <xsl:value-of select="autor"/>;
+           <b>Nacimiento:</b>           <xsl:value-of select="autor/@fechaNacimiento"/>;
            <b>Fecha Publicación:</b>    <xsl:value-of select="fechaPublicacion/@año"/>;
         </p>
     </xsl:template>
