@@ -9,18 +9,20 @@
             </head>
             <body>
                 <h1>Información de mis Libros</h1>
+                <ul>
                 <xsl:apply-templates/>
+                </ul>
             </body>
         </html>
     </xsl:template>
 
     <xsl:template match="libro">
-        <p>
+        <li>
            <b>Titulo:</b>               <xsl:value-of select="titulo"/>;
            <b>Autor:</b>                <xsl:value-of select="autor"/>;
            <b>Nacimiento:</b>           <xsl:value-of select="autor/@fechaNacimiento"/>;
            <b>Fecha Publicación:</b>    <xsl:value-of select="fechaPublicacion/@año"/>;
-        </p>
+        </li>
     </xsl:template>
 
 </xsl:stylesheet>
