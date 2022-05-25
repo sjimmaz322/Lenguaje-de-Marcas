@@ -35,6 +35,7 @@
                 <h1>Ejercicio 2</h1>
 
                 <xsl:for-each select="horario/dia">
+                <xsl:sort select="numdia" order="ascending"/>
                     <xsl:choose>
                         <xsl:when test="numdia = 1">
                             <xsl:text>Lunes</xsl:text>
@@ -104,19 +105,24 @@
                     </xsl:choose>
 
                     <ul>
-                        <xsl:for-each select="tarea">   
-                            <li>
-                                <strong>
-                                    <xsl:value-of select="nombre"/>
-                                </strong>
-                                <xsl:text> Prioridad </xsl:text>
-                                <xsl:value-of select="@prioridad"/>
-                                <br/>
-                                <xsl:text>De </xsl:text>
-                                <xsl:value-of select="hora-ini"/>
-                                <xsl:text> a </xsl:text>
-                                <xsl:value-of select="hora-fin"/>
-                            </li>
+                        <xsl:for-each select="tarea">
+                            <xsl:if test="@prioridad != ''">
+                                <li>
+
+                                    <strong>
+                                        <xsl:value-of select="nombre"/>
+                                    </strong>
+                                    <xsl:text> Prioridad </xsl:text>
+                                    <xsl:value-of select="@prioridad"/>
+                                    <br/>
+                                    <xsl:text>De </xsl:text>
+                                    <xsl:value-of select="hora-ini"/>
+                                    <xsl:text> a </xsl:text>
+                                    <xsl:value-of select="hora-fin"/>
+
+                                </li>
+                            </xsl:if>
+
                         </xsl:for-each>
                     </ul>
 
