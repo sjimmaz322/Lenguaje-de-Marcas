@@ -12,6 +12,7 @@
                     .rojo{color:red}
                     .verde{color:green}
                     .azul{color:blue}
+                    img{height:100px;}
                 </style>
             </head>
             <body>
@@ -140,21 +141,21 @@
                 <table>
 
                     <tr>
-                        <td>
+                        <th>
                             <xsl:text>Código</xsl:text>
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             <xsl:text>Artículo</xsl:text>
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             <xsl:text>Cantidad</xsl:text>
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             <xsl:text>Precio</xsl:text>
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             <xsl:text>Imagen</xsl:text>
-                        </td>
+                        </th>
                     </tr>
                     <xsl:for-each select="tienda/producto">
                         <tr>
@@ -172,19 +173,19 @@
                             </td>
                             <td>
                                 <xsl:if test="codigo = 92">
-
+                                    <img><xsl:attribute name="src"><xsl:value-of select="imagen"/></xsl:attribute></img>
                                 </xsl:if>
                                 <xsl:if test="codigo = 101">
-
-                                </xsl:if>
-                                <xsl:if test="codigo = 102">
-
+                                    <img><xsl:attribute name="src"><xsl:value-of select="imagen"/></xsl:attribute></img>
                                 </xsl:if>
                                 <xsl:if test="codigo = 103">
-
+                                    <img><xsl:attribute name="src"><xsl:value-of select="imagen"/></xsl:attribute></img>
                                 </xsl:if>
                                 <xsl:if test="codigo = 104">
-
+                                    <img><xsl:attribute name="src"><xsl:value-of select="imagen"/></xsl:attribute></img>
+                                </xsl:if>
+                                <xsl:if test="codigo = 105">
+                                    <img><xsl:attribute name="src"><xsl:value-of select="imagen"/></xsl:attribute></img>
                                 </xsl:if>
                             </td>
 
