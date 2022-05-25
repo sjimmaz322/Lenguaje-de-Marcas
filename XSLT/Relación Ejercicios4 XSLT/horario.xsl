@@ -144,7 +144,7 @@
                                 <xsl:text>- a la mañana</xsl:text>
                             </xsl:when>
                             <xsl:when test="hora-ini &lt; 14">
-                                <xsl:text>- al mediodía</xsl:text>
+                                <xsl:text> - al mediodía</xsl:text>
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:text>- por la tarde</xsl:text>
