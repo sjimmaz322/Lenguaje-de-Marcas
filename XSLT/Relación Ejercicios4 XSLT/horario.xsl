@@ -21,8 +21,10 @@
                                 <strong>
                                     <xsl:value-of select="nombre"/>
                                 </strong>
-                                <xsl:text> Prioridad </xsl:text>
-                                <xsl:value-of select="@prioridad"/>
+                                <xsl:if test="@prioridad != ''">
+                                    <xsl:text> Prioridad </xsl:text>
+                                    <xsl:value-of select="@prioridad"/>
+                                </xsl:if>
                                 <br/>
                                 <xsl:text>De </xsl:text>
                                 <xsl:value-of select="hora-ini"/>
@@ -35,7 +37,7 @@
                 <h1>Ejercicio 2</h1>
 
                 <xsl:for-each select="horario/dia">
-                <xsl:sort select="numdia" order="ascending"/>
+                    <xsl:sort select="numdia" order="ascending"/>
                     <xsl:choose>
                         <xsl:when test="numdia = 1">
                             <xsl:text>Lunes</xsl:text>
@@ -65,8 +67,10 @@
                                 <strong>
                                     <xsl:value-of select="nombre"/>
                                 </strong>
-                                <xsl:text> Prioridad </xsl:text>
-                                <xsl:value-of select="@prioridad"/>
+                                <xsl:if test="@prioridad != ''">
+                                    <xsl:text> Prioridad </xsl:text>
+                                    <xsl:value-of select="@prioridad"/>
+                                </xsl:if>
                                 <br/>
                                 <xsl:text>De </xsl:text>
                                 <xsl:value-of select="hora-ini"/>
@@ -79,7 +83,7 @@
 
                 <h1>Ejercicio 3</h1>
                 <xsl:for-each select="horario/dia">
-                <xsl:sort select="numdia" order="ascending"/>
+                    <xsl:sort select="numdia" order="ascending"/>
                     <xsl:choose>
                         <xsl:when test="numdia = 1">
                             <xsl:text>Lunes</xsl:text>
