@@ -7,9 +7,7 @@
                 <title>Tranformación 1</title>
                 <meta charset="UTF-8" />
                 <style>
-                    .rojo{color:red}
-                    .azul{color:blue}
-                    .verde{color:green}
+
                 </style>
             </head>
             <body>
@@ -29,20 +27,6 @@
                             </xsl:when>
                             <xsl:otherwise></xsl:otherwise>
                         </xsl:choose>
-                        <!--
-                        <li>
-                          <xsl:if test="titulo != 'Pantaleón y las visitadoras'">
-                               
-                                <xsl:value-of select="titulo"></xsl:value-of>;
-                           </xsl:if>
-                        </li>
-                        <li>
-                            <xsl:value-of select="autor"></xsl:value-of>;
-                        </li>
-                        <li>
-                            <xsl:value-of select="autor/@fechaNacimiento"></xsl:value-of>;
-                        </li>
-                    -->
                         
                     </xsl:for-each>
                 </ul>

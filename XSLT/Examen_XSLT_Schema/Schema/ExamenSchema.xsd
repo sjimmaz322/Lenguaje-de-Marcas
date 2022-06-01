@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="facturas" type="tipofacturas"/>
+    <xs:complexType name="tipofacturas" mixed="true">
+        <xs:sequence>
+            <xs:element name="factura" type="tipofactura" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipofactura">
+
+        <xs:all>
+            <xs:element name="datos-emisor" type="tiposdatosemisor"/>
+            <xs:element name="datos-cliente" type="tiposdatoscliente"/>
+            <xs:element name="detalle-factura" type="tiposdetallefactura"/>
+        </xs:all>
+
+        <xs:attribute name="n_fact" type="xs:string" use="required"/>
+        <xs:attribute name="fecha" type="xs:date" use="required"/>
+        <xs:attribute name="moneda" type="xs:string" fixed="Euro"/>
+
+    </xs:complexType>
+
+    <xs:complexType name="tiposdatosemisor">
+        <xs:sequence>
+            <xs:element name="nombre" type="tipotexto"/>
+            <xs:element name="cif" type="tipodni"/>
+            <xs:element name="telefono" type="tipotelefono"/>
+            <xs:element name="poblacion" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tiposdatoscliente">
+        <xs:sequence>
+            <xs:element name="nombre" type="tipotexto"/>
+            <xs:element name="cif" type="tipodni"/>
+            <xs:element name="telefono" type="tipotelefono"/>
+            <xs:element name="poblacion"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tiposdetallefactura">
+
+        <xs:sequence>
+            <xs:element name="linea" type="detallelinea" minOccurs="1" maxOccurs="15"/>
+        </xs:sequence>
+
+        <xs:attribute name="importe" type="tipoprecio" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="detallelinea">
+
+        <xs:sequence>
+            <xs:element name="descripcion" type="tipotexto"/>
+            <xs:element name="cantidad" type="tipocantidad"/>
+            <xs:element name="oferta" type="xs:string" minOccurs="0"/>
+            <xs:element name="descuento" type="tipoprecio" minOccurs="0"/>
+            <xs:element name="pvp" type="tipoprecio"/>
+        </xs:sequence>
+
+        <xs:attribute name="codigo-articulo" type="xs:string" use="required"/>
+        <xs:attribute name="tipo" type="tipoarticulo" use="optional"/>
+
+    </xs:complexType>
+
+    <xs:simpleType name="tipotexto">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="5"/>
+            <xs:maxLength value="30"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoprecio">
+        <xs:restriction base="xs:decimal">
+            <xs:minExclusive value="0"/>
+            <xs:maxExclusive value="999"/>
+            <xs:totalDigits value="5"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoarticulo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Libro"/>
+            <xs:pattern value="DVD"/>
+            <xs:pattern value="Varios"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipodni">
+        <xs:restriction base="xs:string">
+            <xs:length value="10"/>
+            <xs:pattern value="[0-9]{8}-[A-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipotelefono">
+        <xs:restriction base="xs:string">
+            <xs:length value="9"/>
+            <xs:pattern value="[0-9]{9}"/>
+        </xs:restriction>
+
+    </xs:simpleType>
+
+    <xs:simpleType name="tipocantidad">
+        <xs:restriction base="xs:integer">
+            <xs:minExclusive value="0"/>
+        </xs:restriction>
+
+    </xs:simpleType>
+</xs:schema>
