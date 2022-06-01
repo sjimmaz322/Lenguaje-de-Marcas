@@ -15,6 +15,7 @@
                 table,th,td,tr{border:1px solid black;}
                 .tabla{width:80%;margin: 0 auto; border-collapse:collapse;}
                 img{height:65px;}
+                td{background-color:cyan;}
             </style>
         </head>
         <body>
